@@ -11,7 +11,7 @@ Proses ini akan terus berlanjut sampai jumlah bilangan yang ditampilkan mencapai
 Output:
 Program akan menampilkan sejumlah bilangan acak yang lebih kecil dari 0.5 sesuai dengan jumlah yang diminta oleh pengguna.
     
-   
+   ```python
     # Meminta input dari pengguna untuk jumlah bilangan acak yang ingin ditampilkan
     n = int(input("Masukkan jumlah bilangan acak yang ingin ditampilkan: "))
 
@@ -28,6 +28,7 @@ Program akan menampilkan sejumlah bilangan acak yang lebih kecil dari 0.5 sesuai
         if random_number < 0.5:
             print(random_number)
             count += 1  # Menambah hitungan bilangan yang sudah ditampilkan
+```
 
 # Latihan 2
 Modal Awal: 
@@ -45,7 +46,8 @@ Keuntungan setiap bulan akan ditambahkan ke total keuntungan yang dihitung.
 
 Output:
 Program menampilkan total keuntungan yang diperoleh setelah 8 bulan berjalan, dalam format mata uang yang mudah dibaca
-    
+
+    ```python
     # Modal awal usaha (dalam juta rupiah)
     modal_awal = 100000000  # 100 juta
     keuntungan = 0  # Inisialisasi total keuntungan
@@ -74,6 +76,7 @@ Program menampilkan total keuntungan yang diperoleh setelah 8 bulan berjalan, da
 
     # Menampilkan total keuntungan selama 8 bulan
     print(f"Total keuntungan selama 8 bulan adalah: Rp {keuntungan:,.2f}")
+```
 
 # Latihan 3
 Saldo Awal:
@@ -95,7 +98,8 @@ Program menggunakan perulangan while yang terus berjalan hingga pengguna memilih
 
 Output:
 Program akan menampilkan saldo saat ini setelah setiap transaksi, atau pesan kesalahan jika saldo tidak cukup untuk menarik uang
-    
+
+```python
     # Saldo awal pengguna (Rp 1.000.000)
     saldo = 1000000  # Saldo awal Rp 1.000.000
 
@@ -146,6 +150,6 @@ Program akan menampilkan saldo saat ini setelah setiap transaksi, atau pesan kes
         else:
             # Menangani pilihan yang tidak valid
             print("Pilihan tidak valid. Silakan coba lagi.")
-
+```
 
       
