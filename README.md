@@ -11,7 +11,7 @@ Proses ini akan terus berlanjut sampai jumlah bilangan yang ditampilkan mencapai
 Output:
 Program akan menampilkan sejumlah bilangan acak yang lebih kecil dari 0.5 sesuai dengan jumlah yang diminta oleh pengguna.
     
-   
+```python
     # Meminta input dari pengguna untuk jumlah bilangan acak yang ingin ditampilkan
     n = int(input("Masukkan jumlah bilangan acak yang ingin ditampilkan: "))
 
@@ -28,7 +28,7 @@ Program akan menampilkan sejumlah bilangan acak yang lebih kecil dari 0.5 sesuai
         if random_number < 0.5:
             print(random_number)
             count += 1  # Menambah hitungan bilangan yang sudah ditampilkan
-
+```
 # Latihan 2
 Modal Awal: 
 Program mulai dengan modal usaha sebesar 100 juta.
